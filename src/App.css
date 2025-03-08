@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e3f2fd, #ede7f6);
+}
+
+/* Full-Screen Container */
+.container {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Header Section */
+.display-4 {
+  font-size: 2.5rem;
+}
+/* Form */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.table {
+  background-color: #ffffff;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Button Styles */
+.btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #673ab7;
+  color: white;
+}
+
+/* Save Button */
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Cancel Button */
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Center Everything */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
